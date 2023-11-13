@@ -1,7 +1,8 @@
 import React from 'react'
 import Container from '../Container/Container'
-import { LinkLogo, LinkStyled, Section, Wrapper } from './Header.styled'
-// import { Link } from 'react-router-dom'
+import { Section, Wrapper } from './Header.styled'
+import css from "./Header.module.scss"
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -9,11 +10,15 @@ const Header = () => {
         <Container>
           <Wrapper>
             <p>
-              <LinkLogo to="/">RentCars</LinkLogo>
+              <Link to="/">RentCars</Link>
             </p>
             <nav>
-              <LinkStyled to="/catalog">Catalog</LinkStyled>
-              <LinkStyled to="/favorites">Favorites</LinkStyled>
+              <Link to="/catalog" className={css.Link}>
+                Catalog
+              </Link>
+              <Link to="/favorites" className={css.Link}>
+                Favorites
+              </Link>
             </nav>
           </Wrapper>
         </Container>

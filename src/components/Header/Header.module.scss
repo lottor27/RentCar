@@ -1,0 +1,15 @@
+.Link{
+    padding: 24.5px 8px;
+    color: #fffc00;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+    transition: color linear 500ms;
+    &:hover {
+        color: #fff;
+    }
+    &.active {
+        border-bottom: 3px solid #fffc00;
+    }
+
+}
