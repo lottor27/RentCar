@@ -1,4 +1,4 @@
-# SwiftWheels-Rentals App
+# RentCar App
 
 This is a web application for a company providing car rental services in Ukraine. The application is divided into three main pages.
 
@@ -33,9 +33,4 @@ This is a web application for a company providing car rental services in Ukraine
 2. Install necessary dependencies: `npm install`.
 3. Start the project: `npm start`.
 4. Open the browser at [http://localhost:3000](http://localhost:3000).
-
-## Additional Features
-
-- Filtering by brand and hourly rental price.
-- Defining a mileage range for searching listings.
 
