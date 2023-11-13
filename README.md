@@ -1,36 +1,48 @@
-# RentCar App
+# SwiftWheels-Rentals App
 
-This is a web application for a company providing car rental services in Ukraine. The application is divided into three main pages.
+Це веб-застосунок для компанії, що надає послуги з оренди автомобілів в Україні. Застосунок розбитий на три основні сторінки.
 
-## Overview of Pages
+## Огляд сторінок
 
-1. **Home Page**
+1. **Домашня сторінка**
 
-   - General description of the company's services.
-   - [Insert image/graphics]
+   - Загальний опис послуг компанії.
+   - [Вставити зображення/графіку]
 
-2. **Car Catalog**
+2. **Каталог автівок**
 
-   - Catalog of cars with different configurations.
-   - Filtering by brand, hourly rental price, and mileage.
-   - Pagination for convenient browsing of listings.
+   - Каталог автівок різної комплектації.
+   - Фільтрація за маркою, ціною за годину та пробігом.
+   - Пагінація для зручного перегляду оголошень.
 
-3. **Favorite Listings**
-   - Listings that the user has marked as favorites.
-   - Option to remove from the favorite list.
+3. **Улюблені оголошення**
+   - Оголошення, які користувач вибрав як улюблені.
+   - Можливість видалення зі списку улюблених.
 
-## Technical Specifications
+## Технічне завдання
 
-- Use React and React Router for routing.
-- Communicate with the Mockapi server to fetch listings.
-- Use Redux for state management.
-- Interaction with the API for filtering and loading additional listings.
-- Valid markup and semantic styling.
+- Використання React та React Router для маршрутизації.
+- Комунікація з сервером Mockapi для отримання оголошень.
+- Використання Redux для управління станом застосунку.
+- Взаємодія з API для фільтрації та завантаження додаткових оголошень.
+- Валідна верстка та семантичне оформлення.
 
-## Usage Instructions
+## Інструкції щодо використання
 
-1. Clone the repository.
-2. Install necessary dependencies: `npm install`.
-3. Start the project: `npm start`.
-4. Open the browser at [http://localhost:3000](http://localhost:3000).
+1. Клонуйте репозиторій.
+2. Встановіть необхідні залежності: `npm install`.
+3. Запустіть проєкт: `npm start`.
+4. Відкрийте браузер за адресою [http://localhost:3000](http://localhost:3000).
 
+## Додаткові завдання
+
+- Фільтрація за маркою та ціною за годину.
+- Визначення діапазону пробігу для пошуку оголошень.
+
+## Демо
+
+[Додаток доступний за посиланням](посилання_на_деплой).
+
+---
+
+Автор: Inna Zadorozhnia | fullstack developer
